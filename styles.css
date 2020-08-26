@@ -1,0 +1,132 @@
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+h1{
+    /*font-family: 'Indie Flower', cursive;*/
+    font-family: 'Monoton', cursive;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h2{
+
+    font-family: 'Piedra', cursive;
+}
+
+h3{
+    font-family: 'Piedra', cursive;
+    
+}
+
+p{
+    color: #8f8f8f;
+}
+
+
+#row{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+   
+}
+.iphone-img{
+    transform:rotate(15deg);
+    width: 60%;
+    position: absolute;
+    right: 25%;
+}
+
+/* Features Section     */
+#features{
+
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    
+    
+       
+}
+/* Testimonial Section */
+#testimonials{
+
+   
+    text-align: center;
+    background-color: #ef8172; 
+    color: #fff;
+}
+
+#press{
+
+    text-align: center;
+    background-color: #ef8172; 
+    padding-bottom: 3%;
+}
+
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%; 
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1.1rem;
+}
+.icon:hover{
+    color:  #ff4c68;
+}
+.testimonial-img{
+    
+    width: 10%;
+    border-radius: 100%;
+    margin: 10px;
+}
+.press-logo{
+    width: 13%;
+    margin: 20px 20px 40px;
+
+}
+
+.carousel-item{
+
+     padding: 7% 15%;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+.container-fluid{
+    padding: 3% 15% 12%;
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon{
+    margin: 20px 10px;
+    
+}
+
+@media (max-width:1000px){
+
+    #title{
+        text-align: center;
+    }
+
+    .iphone-img{
+        position: static;
+        transform: rotate(0);
+    }
+}
